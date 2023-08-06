@@ -12,19 +12,20 @@
 
 ### **First**, go to site, and after loged, select API menu
 
-![First, go to site, and after loged, select API menu](resources/img/tutorial_openAI.png)
+<img src="resources/img/tutorial_openAI.png" style="width:500px" alt="First, go to site, and after loged, select API menu" />
 
 ### **Second**, from user menu, select `View API Keys`
 
-![Second, from user menu, select View API Keys](resources/img/tutorial_openAI-menu.png)
+<img src="resources/img/tutorial_openAI-menu.png" style="width:200px" alt="Second, from user menu, select View API Keys" />
+
 
 ### **Third**, select option for create our `Secret Key`
 
-![Third, select option for create our Secret Key](resources/img/tutorial_openAI-button-create-key.png)
+<img src="resources/img/tutorial_openAI-button-create-key.png" style="width:500px" alt="Third, select option for create our Secret Key" />
 
 ### **Fourth**, set one name, a use it
 
-![Fourth, set one name, a use it](resources/img/tutorial_openAI-create-name-key.png)
+<img src="resources/img/tutorial_openAI-create-name-key.png" style="width:500px" alt="Fourth, set one name, a use it" />
 
 <!-- link, tools, etc -->
 [link-openai]:https://openai.com/
