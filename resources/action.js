@@ -1,8 +1,11 @@
+// GLOBAL VARS WHERE HAS CONFIGURATION
 const URL = 'https://api.openai.com/v1/chat/completions';
-const API_KEY = '<HERE-YOU-USE-YOUR-OPEN-AI-TOKEN->';
+const API_KEY = '<HERE-YOU-USE-YOUR-OPEN-AI-TOKEN>';
 const PROMPT = 'Please, indicate 3 point touristic of [CITY], listing each point in json format with next structure: [{"name": "name of option", "location": "location of option", "description": "description of option" }] only response to JSON. Is high priority response only the json without saying anything before or giving clarifications';
 
+// this function to start of project
 hideLoading();
+
 
 function showLoading() {
     document.getElementById("divloading").classList.remove('dohidden');
@@ -22,6 +25,7 @@ async function clickSearchSugestion() {
     myresponse.innerHTML = `<ul>${makeValues(JSON.parse( response.choices[0].message.content))}</ul>`;
 }
 
+// function that create the layout to response
 function makeValues(response){
     
     let layout = '';
@@ -33,6 +37,7 @@ function makeValues(response){
     return layout;
 }
 
+// core that use ChatGPT for get our answer
 async function consultingChatGpt(myrequest) {
 
     // create my body request
@@ -43,7 +48,7 @@ async function consultingChatGpt(myrequest) {
         ]
     }
 
-    // create my option request
+    // create my config for request
     const myconfigrequest = {
         method: 'POST',
         headers: {
