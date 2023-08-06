@@ -8,6 +8,8 @@
 
 > **NOTE** for use this code,previusly need create the API KEY from [OpenAI][link-openai]
 
+> 🔴**IMPORTANT** is not recomender use your API-KEY in application FONT, because is easy get it for other users and do use.
+
 ## How to get API-KEY of OpenIA
 
 ### **First**, go to site, and after loged, select API menu
