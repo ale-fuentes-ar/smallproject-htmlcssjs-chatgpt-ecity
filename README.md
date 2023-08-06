@@ -12,20 +12,20 @@
 
 ### **First**, go to site, and after loged, select API menu
 
-<img src="resources/img/tutorial_openAI.png" style="width:500px" alt="First, go to site, and after loged, select API menu" />
+<img src="resources/img/tutorial_openAI.png" style="width:500px; border:solid 2px #cdcdcd;" alt="First, go to site, and after loged, select API menu" />
 
 ### **Second**, from user menu, select `View API Keys`
 
-<img src="resources/img/tutorial_openAI-menu.png" style="width:200px" alt="Second, from user menu, select View API Keys" />
+<img src="resources/img/tutorial_openAI-menu.png" style="width:200px; border:solid 2px #cdcdcd;" alt="Second, from user menu, select View API Keys" />
 
 
 ### **Third**, select option for create our `Secret Key`
 
-<img src="resources/img/tutorial_openAI-button-create-key.png" style="width:500px" alt="Third, select option for create our Secret Key" />
+<img src="resources/img/tutorial_openAI-button-create-key.png" style="width:500px; border:solid 2px #cdcdcd;" alt="Third, select option for create our Secret Key" />
 
 ### **Fourth**, set one name, a use it
 
-<img src="resources/img/tutorial_openAI-create-name-key.png" style="width:500px" alt="Fourth, set one name, a use it" />
+<img src="resources/img/tutorial_openAI-create-name-key.png" style="width:500px; border:solid 2px #cdcdcd;" alt="Fourth, set one name, a use it" />
 
 <!-- link, tools, etc -->
 [link-openai]:https://openai.com/
