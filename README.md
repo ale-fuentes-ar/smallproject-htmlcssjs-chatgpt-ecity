@@ -27,5 +27,17 @@
 
 <img src="resources/img/tutorial_openAI-create-name-key.png" style="width:500px; border:solid 2px #cdcdcd;" alt="Fourth, set one name, a use it" />
 
+
+After, set our script file `resources\action.js`:
+
+```javascript
+# initial section
+
+const URL = 'https://api.openai.com/v1/chat/completions';
+const API_KEY = '<HERE-YOU-USE-YOUR-OPEN-AI-TOKEN>'; # <-- use here
+
+```
+
+
 <!-- link, tools, etc -->
 [link-openai]:https://openai.com/
